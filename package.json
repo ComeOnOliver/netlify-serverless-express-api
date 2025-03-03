@@ -13,15 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "body-parse": "latest",
-    "express": "^4.17.1",
+    "express": "^4.21.2",
     "express-urlrewrite": "^1.2.0",
+    "kind-of": ">=6.0.3",
+    "left-pad": "^1.3.0",
+    "minimist": ">=1.2.6",
+    "mkdirp": "^3.0.1",
     "netlify-lambda": "^1.6.3",
+    "serialize-javascript": ">=3.1.0",
     "serverless-http": "latest",
     "ts-node": "^8.3.0",
-    "typescript": "^3.5.3",
-    "minimist": ">=1.2.6",
-    "kind-of": ">=6.0.3",
-    "serialize-javascript": ">=3.1.0"
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.1",
